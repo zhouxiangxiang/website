@@ -1,5 +1,14 @@
+{% extends "css/base.html" %}
+{% block content %}
+
 {% for post in posts %}
 <h2>{{ post.title }}</h2>
-<p>{{ post.timestamp }}</p>
+
+<!-- date 
+     https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date 
+-->
+<p>{{ post.timestamp | date:"G:i l, F jS Y"  }}</p>
 <p>{{ post.body }}</p>
+
 {% endfor %}
+{% endblock %}

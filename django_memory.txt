@@ -1,0 +1,5 @@
+[tag url]
+https://docs.djangoproject.com/en/dev/ref/templates/builtins/#built-in-tag-reference
+
+[filer url]
+https://docs.djangoproject.com/en/dev/ref/templates/builtins/#built-in-filter-reference
