@@ -3,10 +3,8 @@
 
 {% for post in posts %}
 <h2>{{ post.title }}</h2>
-
-<!-- date 
-     https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date 
--->
+<!-- modified by test branch -->
+<!-- date https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date -->
 <p>{{ post.timestamp | date:"G:i l, F jS Y"  }}</p>
 <p>{{ post.body }}</p>
 
