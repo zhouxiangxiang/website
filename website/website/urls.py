@@ -3,6 +3,7 @@ from django.contrib import admin
 
 import blog
 
+#a Python list of django.conf.urls.url() instances.
 urlpatterns = [
     # Examples:
     # url(r'^$', 'website.views.home', name='home'),

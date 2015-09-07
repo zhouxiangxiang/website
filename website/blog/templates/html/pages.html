@@ -1,0 +1,10 @@
+{% extends "css/base.html" %}
+{% block content %}
+
+<h1> page </h1>
+
+<h2> {{ posts.title }} </h2>
+<p>  {{ posts.timestamp | date:"G:i l, F jS Y"  }}</p>
+<p>  {{ posts.body }}</p>
+
+{% endblock %}
